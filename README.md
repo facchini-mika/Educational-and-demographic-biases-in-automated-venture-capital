@@ -18,7 +18,7 @@ Follow these steps to set up the project and run the tool:
 1. **Clone the Repository**  
    Clone the project repository and navigate into it:
    ```bash
-   git clone https://github.com/<your-user>/Educational-and-Demographic-Biases-in-Automated-Venture-Capital.git
+   git clone https://github.com/facchini-mika/Educational-and-Demographic-Biases-in-Automated-Venture-Capital.git
    cd Educational-and-Demographic-Biases-in-Automated-Venture-Capital
    ```
 
@@ -30,9 +30,9 @@ Follow these steps to set up the project and run the tool:
    ```
 
 3. **Install Dependencies**  
-   Install the required Python libraries. If a `requirements.txt` is provided, use:
+   Install the required Python libraries.
    ```bash
-   pip install -r requirements.txt
+   pip install ...
    ```  
    *Note:* The tool uses Python’s Tkinter (for the GUI) and a few external libraries for API access (e.g. OpenAI SDK, Google GenAI SDK, Together API, Mistral client, `python-dotenv`, `filelock`). Make sure these are installed in your environment.
 
@@ -62,11 +62,11 @@ Once the GUI is open, you can set up an experiment to generate data. For example
    - *unis* – vary only the university education attribute while keeping the person constant.
    - *single* – run a single test scenario (one specific founder profile and one university).
 2. **Select Models:** Choose one or multiple models from the list (e.g. OpenAI, Gemini, DeepSeek, Mistral) to include in the run.
-3. **Start the Experiment:** Click the **Start Experiment** button. The status label at the bottom will update to "Running…" and the experiment will begin. Each selected model will be queried with the generated pitch prompts according to the chosen variant.
-4. **Monitoring:** The experiment runs in parallel threads for each model. You can monitor progress via the status text. If needed, you can click **Force Quit** to stop the experiment early.
-5. **Results:** When the run finishes, a pop-up will confirm completion and the status will show "Finished successfully ✓". All results are saved to the output file (e.g. `Data/Output/data.jsonl`). Each line in this JSONL file represents one model’s response to a pitch, including the input details and the model’s yes/no decision and proposed amount. All generated prompts are saved in `generated_prompts.txt` for traceability file for traceability. This also includes the repetitions.
+3. **Start the Experiment:** Click the **Start Experiment** button. Each selected model will be queried with the generated pitch prompts according to the chosen variant.
+4. **Monitoring:** The experiment runs in parallel threads for each model. If needed, you can click **Force Quit** to stop the experiment early.
+5. **Results:** When the run finishes, a pop-up will confirm completion and the status will show "Finished successfully". All results are saved to the output file (e.g. `Data/Output/data.jsonl`). Each line in this JSONL file represents one model’s response to a pitch, including the input details and the model’s yes/no decision and proposed amount. All generated prompts are saved in `generated_prompts.txt` for traceability file for traceability. This also includes the repetitions.
 
-You can then use the collected data in `Data/Output/data.jsonl` for further analysis (e.g. to compute statistics on bias or train evaluation models as part of the thesis).
+You can then use the collected data in `Data/Output/data.jsonl` for further analysis.
 
 ## Repository Structure
 
