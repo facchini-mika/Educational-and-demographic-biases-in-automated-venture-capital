@@ -1,6 +1,6 @@
 # Educational and Demographic Biases in Automated Venture Capital
 
-This project provides an **automated data generation tool** developed for a bachelor thesis on bias in venture capital decisions. It offers a user-friendly GUI to configure and run experiments that examine how **educational background** and **demographic cues** (such as gender and ethnicity) of startup founders might influence AI-driven investment recommendations. The tool queries multiple large language model (LLM) APIs (e.g. OpenAI GPT-4, Google Gemini, etc.) with standardized startup pitch prompts and collects their decisions on whether to invest and how much to invest. The resulting dataset can be used to analyze potential biases in the models’ venture capital recommendations.
+This project provides an **automated data generation tool** developed for a bachelor thesis on bias in venture capital decisions. It offers a user-friendly GUI to configure and run experiments that examine how educational background and demographic cues (such as gender and ethnicity) of startup founders might influence AI-driven investment recommendations. The tool queries multiple large language model (LLM) APIs (e.g. OpenAI GPT-4, Google Gemini, etc.) with standardized startup pitch prompts and collects their decisions on whether to invest and how much to invest. The resulting dataset can be used to analyze potential biases in the models’ venture capital recommendations.
 
 ## Features
 
@@ -36,13 +36,16 @@ Follow these steps to set up the project and run the tool:
    ```  
    *Note:* The tool uses Python’s Tkinter (for the GUI) and a few external libraries for API access (e.g. OpenAI SDK, Google GenAI SDK, Together API, Mistral client, `python-dotenv`, `filelock`). Make sure these are installed in your environment.
 
-4. **Configure API Keys**  
+4. **Configure API Keys (optional)**  
+
+   If no API keys are given, the system simulates the calls with a result of `invest: 1, amount: 100000`
+
    The experiment uses external LLM APIs, so you need to provide your API credentials:
-   - Create a copy of the provided **`.env.template`** file and name it **`.env`**.
+   - Create an **`.env`** file
    - Open the `.env` file in a text editor and enter your API keys for the relevant services (e.g. `OPENAI_API_KEY`, `GOOGLE_API_KEY` (for Gemini), `TOGETHER_API_KEY`, `MISTRAL_API_KEY`, etc.).  
    Alternatively, you can set these environment variables directly in your system.
 
-5. **Launch the GUI**  
+6. **Launch the GUI**  
    Start the graphical interface by running:
    ```bash
    python gui_launcher.py
@@ -61,7 +64,7 @@ Once the GUI is open, you can set up an experiment to generate data. For example
 2. **Select Models:** Choose one or multiple models from the list (e.g. OpenAI, Gemini, DeepSeek, Mistral) to include in the run.
 3. **Start the Experiment:** Click the **Start Experiment** button. The status label at the bottom will update to "Running…" and the experiment will begin. Each selected model will be queried with the generated pitch prompts according to the chosen variant.
 4. **Monitoring:** The experiment runs in parallel threads for each model. You can monitor progress via the status text. If needed, you can click **Force Quit** to stop the experiment early.
-5. **Results:** When the run finishes, a pop-up will confirm completion and the status will show "Finished successfully ✓". All results are saved to the output file (e.g. `Data/Output/data.jsonl`). Each line in this JSONL file represents one model’s response to a pitch, including the input details and the model’s yes/no decision and proposed amount.
+5. **Results:** When the run finishes, a pop-up will confirm completion and the status will show "Finished successfully ✓". All results are saved to the output file (e.g. `Data/Output/data.jsonl`). Each line in this JSONL file represents one model’s response to a pitch, including the input details and the model’s yes/no decision and proposed amount. All generated prompts are saved in `generated_prompts.txt` for traceability file for traceability. This also includes the repetitions.
 
 You can then use the collected data in `Data/Output/data.jsonl` for further analysis (e.g. to compute statistics on bias or train evaluation models as part of the thesis).
 
