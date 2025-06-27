@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Molly Smith",
+    "specific_eth": "White American"
+  },
+  {
+    "id": 2,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Amy Johnson",
+    "specific_eth": "White American"
+  },
+  {
+    "id": 3,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Claire Williams",
+    "specific_eth": "White American"
+  },
+  {
+    "id": 4,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Jake Williams",
+    "specific_eth": "White American"
+  },
+  {
+    "id": 5,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Connor Smith",
+    "specific_eth": "White American"
+  },
+  {
+    "id": 6,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Tanner Johnson",
+    "specific_eth": "White American"
+  },
+  {
+    "id": 7,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Sofía Martínez",
+    "specific_eth": "Latinx"
+  },
+  {
+    "id": 8,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "María José García",
+    "specific_eth": "Latinx"
+  },
+  {
+    "id": 9,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Valentina Hernández",
+    "specific_eth": "Latinx"
+  },
+  {
+    "id": 10,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Santiago Hernández",
+    "specific_eth": "Latinx"
+  },
+  {
+    "id": 11,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Mateo Martínez",
+    "specific_eth": "Latinx"
+  },
+  {
+    "id": 12,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Sebastián García",
+    "specific_eth": "Latinx"
+  },
+  {
+    "id": 13,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Yinuo Wang",
+    "specific_eth": "Han Chinese"
+  },
+  {
+    "id": 14,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Zihan Zhang",
+    "specific_eth": "Han Chinese"
+  },
+  {
+    "id": 15,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Shihan Li",
+    "specific_eth": "Han Chinese"
+  },
+  {
+    "id": 16,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Zimo Wang",
+    "specific_eth": "Han Chinese"
+  },
+  {
+    "id": 17,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Yuxuan Li",
+    "specific_eth": "Han Chinese"
+  },
+  {
+    "id": 18,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Haoyu Zhang",
+    "specific_eth": "Han Chinese"
+  },
+  {
+    "id": 19,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Aveen Barzani",
+    "specific_eth": "Kurds/Sinti"
+  },
+  {
+    "id": 20,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Dilsoz Ahmed",
+    "specific_eth": "Kurds/Sinti"
+  },
+  {
+    "id": 21,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Zhian Talabani",
+    "specific_eth": "Kurds/Sinti"
+  },
+  {
+    "id": 22,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Sherko Barzani",
+    "specific_eth": "Kurds/Sinti"
+  },
+  {
+    "id": 23,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Kochar Talabani",
+    "specific_eth": "Kurds/Sinti"
+  },
+  {
+    "id": 24,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Roj Ahmed",
+    "specific_eth": "Kurds/Sinti"
+  },
+  {
+    "id": 25,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Marie Martin",
+    "specific_eth": "French"
+  },
+  {
+    "id": 26,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Jeanne Bernard",
+    "specific_eth": "French"
+  },
+  {
+    "id": 27,
+    "gender": "f",
+    "ethnicity": "maj",
+    "name": "Françoise Thomas",
+    "specific_eth": "French"
+  },
+  {
+    "id": 28,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Jean Martin",
+    "specific_eth": "French"
+  },
+  {
+    "id": 29,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Pierre Thomas",
+    "specific_eth": "French"
+  },
+  {
+    "id": 30,
+    "gender": "m",
+    "ethnicity": "maj",
+    "name": "Michel Bernard",
+    "specific_eth": "French"
+  },
+  {
+    "id": 31,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Esmeralda Petrovici",
+    "specific_eth": "Roma"
+  },
+  {
+    "id": 32,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Zemfira Stanescu",
+    "specific_eth": "Roma"
+  },
+  {
+    "id": 33,
+    "gender": "f",
+    "ethnicity": "min",
+    "name": "Saniye Kalderash",
+    "specific_eth": "Roma"
+  },
+  {
+    "id": 34,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Rajko Petrovici",
+    "specific_eth": "Roma"
+  },
+  {
+    "id": 35,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Mihai Kalderash",
+    "specific_eth": "Roma"
+  },
+  {
+    "id": 36,
+    "gender": "m",
+    "ethnicity": "min",
+    "name": "Jovan Stanescu",
+    "specific_eth": "Roma"
+  }
+]

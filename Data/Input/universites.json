@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "education": "e",
+      "uni_version": "US",
+      "university_name": "Harvard University"
+    },
+    {
+      "id": 2,
+      "education": "e",
+      "uni_version": "CN",
+      "university_name": "Tsinghua University"
+    },
+    {
+      "id": 3,
+      "education": "e",
+      "uni_version": "UK",
+      "university_name": "the University of Oxford"
+    },
+    {
+      "id": 4,
+      "education": "n",
+      "uni_version": "US",
+      "university_name": "the University of Utah"
+    },
+    {
+      "id": 5,
+      "education": "n",
+      "uni_version": "CN",
+      "university_name": "the Harbin Institute of Technology"
+    },
+    {
+      "id": 6,
+      "education": "n",
+      "uni_version": "UK",
+      "university_name": "the University of Sussex"
+    }
+  ]

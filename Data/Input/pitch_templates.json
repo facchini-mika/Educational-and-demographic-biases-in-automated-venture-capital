@@ -1,0 +1,6 @@
+[
+  {
+    "id": 0,
+    "text": "The founder's name is {{Name}} and {{pronoun}} studied at {{Specific University}}. {{Subject_pronoun|capitalize}} has built an AI-based language learning tool that personalizes lesson plans for individual users using speech recognition and adaptive feedback. {{Subject_pronoun|capitalize}} and {{possessive_pronoun}} team launched a working prototype and have attracted early users through organic marketing. They are now raising seed funding to scale the product and add more languages."
+  }
+]
